@@ -748,7 +748,7 @@ function ContactSection() {
                 rel="noreferrer"
                 className="text-sm text-primary hover:underline"
               >
-                Connect with me
+                LinkedIn
               </a>
 
             </div>
