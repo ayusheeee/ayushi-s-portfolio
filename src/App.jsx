@@ -389,7 +389,7 @@ function AboutSection() {
 
         <div className="rounded-2xl border border-border bg-card p-8 shadow-sm">
           <p className="mb-6 text-lg leading-8 text-foreground">
-            I’m a Computer Science undergraduate at with a
+            I’m a Computer Science undergraduate with a
             strong interest in artificial intelligence, machine learning,
             cybersecurity, and product-focused development. I enjoy building
             systems that combine technical depth with usability whether that’s
@@ -748,7 +748,7 @@ function ContactSection() {
                 rel="noreferrer"
                 className="text-sm text-primary hover:underline"
               >
-                Coonect with me
+                Connect with me
               </a>
 
             </div>

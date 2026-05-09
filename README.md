@@ -1,16 +1,45 @@
-# React + Vite
+# Ayushi Tripathi — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website built to showcase my work, experience, and projects across AI/ML, cybersecurity, Flutter development, and software engineering.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio highlights:
+- AI/ML and cybersecurity projects
+- Open-source contributions
+- Technical skills and experience
+- Research-oriented work
+- Modern responsive UI/UX
 
-## React Compiler
+Built with a clean and minimal developer-focused aesthetic inspired by modern portfolio designs.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Lucide React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Responsive modern UI
+- Animated sections and transitions
+- Interactive project showcase
+- Smooth scrolling navigation
+- Minimal floating tech background elements
+- Fully optimized for desktop and mobile
+
+## Projects Featured
+
+- SecProbe
+- eBallot
+- De Novo Discovery Engine for Biodiversity Detection
+- Resume Analyzer
+
+## Experience
+
+- Advisory Intern — AI/ML Engineer at EdCIL (India) Limited
+- Open Source Contributor — GSSoC 2026
+- Independent AI/ML & Product Development
+
