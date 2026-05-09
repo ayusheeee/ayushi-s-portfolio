@@ -1,0 +1,70 @@
+@import 'tailwindcss';
+
+:root {
+  --font-size: 16px;
+  --background: #f8f9f5;
+  --foreground: #2c3e2f;
+  --card: #ffffff;
+  --card-foreground: #2c3e2f;
+  --primary: #556b2f;
+  --primary-foreground: #ffffff;
+  --secondary: #9db896;
+  --secondary-foreground: #2c3e2f;
+  --muted: #e8ebe5;
+  --muted-foreground: #6b7d6a;
+  --accent: #8fbc8f;
+  --accent-foreground: #2c3e2f;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: #556b2f33;
+  --radius: 0.625rem;
+}
+
+@theme {
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display',
+    'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Satoshi', sans-serif;
+  font-size: var(--font-size);
+  background: var(--background);
+  color: var(--foreground);
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fade-in-up 650ms ease-out both;
+}
