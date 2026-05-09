@@ -43,9 +43,3 @@ Built with a clean and minimal developer-focused aesthetic inspired by modern po
 - Open Source Contributor — GSSoC 2026
 - Independent AI/ML & Product Development
 
-## Run Locally
-
-Clone the project:
-
-```bash
-git clone https://github.com/your-username/portfolio.git
